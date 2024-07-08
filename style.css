@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.card {
+    border: 2px transparent;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 8px #808080;
+    width: 35%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 2px transparent;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(221, 93, 93);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:aqua;
+}
+
+   
